@@ -2,7 +2,11 @@
 
 To Run the web server:
 
+python 2.7
 python -m SimpleHTTPServer 1337
+
+if you're using Python 3.x or higher,
+python -m http.server 1337
 
 To hit the web server:
 
